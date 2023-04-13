@@ -1,0 +1,12 @@
+
+.dots {
+    width: 20px;
+    height: 20px;
+    border: 1px solid black;
+    border-radius: 100%;
+    transition: .5s;
+    cursor: pointer;
+}
+.activeDots {
+    background: black;
+}

@@ -1,0 +1,37 @@
+
+
+header {
+    padding: 1.2em 0;
+    .navbar {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        h2 {
+            font-size: 2em;
+            font-weight: 400;
+            cursor: pointer;
+        }
+        .list {
+            display: flex;
+            gap: 3em;
+            
+            li {
+                a{
+                    font-size: 23px;
+                    color: black;
+                }
+            }
+        }
+
+        .icons {
+            display: flex;
+            align-items: center;
+            gap: 2em;
+            svg {
+                font-size: 20px;
+                cursor: pointer;
+            }
+        }
+    }
+}
